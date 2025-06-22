@@ -25,7 +25,7 @@ class Solution {
         while(temp > 0) {
             temp /= 10;
             intLength++;
-        } //расчет длинны int x
+        } //расчет длины int x
 
         for(int i = 0; i < intLength; i++){
             digit = x % 10;
